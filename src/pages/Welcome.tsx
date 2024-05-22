@@ -1,5 +1,5 @@
 import { Backdrop, Box, Button, Container, Stack, Typography } from '@mui/material'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { TEXT } from '../utils/contans'
 import { useQuery } from '@apollo/client';
 import { GET_CHARACTER_BY_ID} from '../api/queries/queries';
